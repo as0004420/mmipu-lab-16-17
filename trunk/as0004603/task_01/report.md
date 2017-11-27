@@ -89,7 +89,7 @@ Model's equations:
 
 >### Linear
 >![linear](https://github.com/AlexDejss/mmipu-lab-16-17/blob/master/trunk/as0004603/task_01/images/linear.PNG)
->###Nonlinear
+>### Nonlinear
 >![nonlinear](https://github.com/AlexDejss/mmipu-lab-16-17/blob/master/trunk/as0004603/task_01/images/nonlinear.png)
 
 ### Result:
