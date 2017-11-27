@@ -1,11 +1,11 @@
-####BSTU
-####Department of Informatics and Applied Mathematics
-####Laboratory work N1
-####Theme: Model a control model.
-####Studen: Kapura A.V.
-####Checked By: Ivanyuk D.S.
+#### BSTU
+#### Department of Informatics and Applied Mathematics
+#### Laboratory work N1
+#### Theme: Model a control model.
+#### Studen: Kapura A.V.
+#### Checked By: Ivanyuk D.S.
 
-#####Goal: 
+##### Goal: 
 Create a program using C++ work according to the model presented before. 
 Program must has OOP (3 classes: Abstract,  Child Class of Abstract and one more).
 
@@ -14,7 +14,7 @@ Model's equations:
 >
 > non linear model: y(t+1)=0.9y(t)-0.001y(t-1)^2+u(t)+sin⁡(u(t-1)).
 
-###Code:
+### Code:
 
 	#include <iostream>
 	#include <math.h>
@@ -87,10 +87,10 @@ Model's equations:
 	    return 0;
 	}
 
->###Linear
-![Alt text](/images/linear.png)
+>### Linear
+>![linear](https://github.com/AlexDejss/mmipu-lab-16-17/blob/master/trunk/as0004603/task_01/images/linear.PNG)
 >###Nonlinear
-![Alt text](/images/nonlinear.png)
+>![nonlinear](https://github.com/AlexDejss/mmipu-lab-16-17/blob/master/trunk/as0004603/task_01/images/nonlinear.png)
 
-###Result:
+### Result:
 Looking on graphs, we can see, that a linear equation is going to increase infinitely, however a nonlinear after reaching some limit slightly decrease and stay the same.

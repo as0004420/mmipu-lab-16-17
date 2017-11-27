@@ -1,12 +1,12 @@
-####BSTU
-####Department of Informatics and Applied Mathematics
-####Laboratory work N2
-####Theme: PID controllers.
-####Studen: Kapura A.V.
-####Checked By: Ivanyuk D.S.
+#### BSTU
+#### Department of Informatics and Applied Mathematics
+#### Laboratory work N2
+#### Theme: PID controllers.
+#### Studen: Kapura A.V.
+#### Checked By: Ivanyuk D.S.
 
-#####Goal: 
-Create a program using C++ work according to the model of PID controller. Use the mathemetical model from the first laboratory work. Program must has OOP (3 classes: Abstract,  Child Class of Abstract and one more).
+##### Goal: 
+Creat e a program using C++ work according to the model of PID controller. Use the mathemetical model from the first laboratory work. Program must has OOP (3 classes: Abstract,  Child Class of Abstract and one more).
 
 Algorithm of PID controller:
 
@@ -18,7 +18,7 @@ Algorithm of PID controller:
 - e = u\_in-u\_prev
 
 
-###Code:
+### Code:
 
 	#include <iostream> 
 	using namespace std; 
@@ -129,8 +129,8 @@ Algorithm of PID controller:
 		return 0; 
 	} 
 
->###Graph
-![Alt text](/images/graph.png)
+>### Graph
+>![graph](https://github.com/AlexDejss/mmipu-lab-16-17/blob/master/trunk/as0004603/task_02/images/graph.PNG)
 
-###Result:
+### Result:
 Looking on graph, we can see, that if system has correct paramethers (blue curve) it after some time will reach one value and will stay the same, otherwise it could became mad (orange curve) and has a wave-like form, as here is presented. 
