@@ -3,7 +3,7 @@
 #### Laboratory work N2
 #### Theme: PID controllers.
 #### Studen: Kapura A.V.
-#### Checked By: Ivanyuk D.S.
+#### Checked By: Ivaniuk D.S.
 
 ##### Goal: 
 Creat e a program using C++ work according to the model of PID controller. Use the mathemetical model from the first laboratory work. Program must has OOP (3 classes: Abstract,  Child Class of Abstract and one more).
