@@ -3,7 +3,7 @@
 #### Laboratory work N1
 #### Theme: Model a control model.
 #### Studen: Kapura A.V.
-#### Checked By: Ivanyuk D.S.
+#### Checked By: Ivaniuk D.S.
 
 ##### Goal: 
 Create a program using C++ work according to the model presented before. 
