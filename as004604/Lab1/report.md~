@@ -1,0 +1,85 @@
+#### BSTU
+#### Department of Informatics and Applied Mathematics
+#### Laboratory work N1
+#### Theme: Model a control model.
+#### Studen: Kovalevich T.A.
+#### Checked By: Ivaniuk D.S.
+
+##### Goal: 
+Realize on C++ program, which modulate manager object, using two models:
+
+> linear model: y(t+1)=0.988y(t)+0.232u(t);
+>
+> non linear model: y(t+1)=0.9y(t)-0.001y(t-1)^2+u(t)+sin⁡(u(t-1)).
+
+Use OOP, create not less then 3 classes (one is the abstract) and incheritance.
+Create graphs of changing of object’s temperature.
+
+### Code:
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+class Calcul
+{
+public:
+    Calcul(){}
+ 
+     virtual void calclulate() {};
+};
+ 
+class LinearCalcul : public Calcul
+{
+public:
+    LinearCalcul() : Calcul ()   
+    {}
+ 
+    void calculate() //override
+    {
+    	cout << "Result from linear method: " << endl;
+    	float Y = 0.75, U = 0.75*Y;
+       	cout << Y;
+    	for (int i=0;i<50;i++)
+    	{
+			float resultY;			
+			resultY = 0.998*Y + 0.232*U;
+        	cout << resultY << ", ";
+        	Y = resultY;
+        	U = 0.75*Y;
+        }
+        cout << endl;
+    }
+    	
+};
+
+class NonLinearCalcul : public Calcul
+{
+public:
+    NonLinearCalcul() : Calcul ()   
+    {}
+    void calculate() //override
+    {
+        cout << "Result from non-linear method: " << endl;
+    	float Y = 0.75, U = 0.75*Y;
+       	cout << Y;
+    	for (int i=0;i<50;i++)
+    	{
+			float resultY;	
+    		resultY = 0.9*Y - 0.001*Y*Y + U + sin(U);
+    		cout << resultY << ", ";
+    		Y = resultY;
+    		U = 0.75*Y;
+        }
+        cout << endl;
+    }
+};
+
+int main()
+{
+    LinearCalcul *lc = new LinearCalcul();
+    NonLinearCalcul *nlc = new NonLinearCalcul();
+    lc->calculate();
+    nlc->calculate();
+    return 0;
+}
