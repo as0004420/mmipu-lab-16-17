@@ -10,12 +10,12 @@ Using C++ create program that model control element using linear and non-linear 
 -y(t+1) = 0.988y(t) + 0.232u(t)
 -y(t+1) = 0.9y(t) - 0.001y(t-1)^2 + u(t) + sin(u(t-1))
 I wrote program in which I enter time and it outputs values of given model at each moment of time:
-![](/img/Output.png)
+![Output](img/Output.PNG)
 Graphs(red line represents non-linear system and blue points represent linear):
-![](/img/MM_1_MatLab.bmp)
+![Graph](img/MM_1_MatLab.bmp)
 
 ###Code:
-
+```C++
 	#include <iostream>
 	#include <math.h>
 	using namespace std;
@@ -26,7 +26,6 @@ Graphs(red line represents non-linear system and blue points represent linear):
 			virtual double CalculateY(int t) = 0;
 			virtual void Print() = 0;
 	};
-
 	class LinearModel : public Model
 	{
 		
@@ -111,6 +110,6 @@ Graphs(red line represents non-linear system and blue points represent linear):
 		system("pause");
 		return 0;
 	}
-
+```
 ###Conclusion: 
 I constructed linear and non-linear models and plotted them. Linear model grows all the time and non-linear grows until some value.
