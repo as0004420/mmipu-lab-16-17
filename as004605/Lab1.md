@@ -10,8 +10,11 @@ Using C++ create program that model control element using linear and non-linear 
 -y(t+1) = 0.988y(t) + 0.232u(t)
 -y(t+1) = 0.9y(t) - 0.001y(t-1)^2 + u(t) + sin(u(t-1))
 I wrote program in which I enter time and it outputs values of given model at each moment of time:
+
 ![Output](img/Output.PNG)
+
 Graphs(red line represents non-linear system and blue points represent linear):
+
 ![Graph](img/MM_1_MatLab.bmp)
 
 ### Code:
