@@ -1,11 +1,11 @@
-####BSTU
-####Department of Informatics and Applied Mathematics
-####Laboratory work N1
-####Theme: Modeling a control model.
-####Studen: Tikhonov D. N.
-####Checked By: Ivaniuk D.S.
+#### BSTU
+#### Department of Informatics and Applied Mathematics
+#### Laboratory work N1
+#### Theme: Modeling a control model.
+#### Studen: Tikhonov D. N.
+#### Checked By: Ivaniuk D.S.
 
-###Goal
+### Goal
 Using C++ create program that model control element using linear and non-linear models
 -y(t+1) = 0.988y(t) + 0.232u(t)
 -y(t+1) = 0.9y(t) - 0.001y(t-1)^2 + u(t) + sin(u(t-1))
@@ -14,7 +14,7 @@ I wrote program in which I enter time and it outputs values of given model at ea
 Graphs(red line represents non-linear system and blue points represent linear):
 ![Graph](img/MM_1_MatLab.bmp)
 
-###Code:
+### Code:
 ```C++
 	#include <iostream>
 	#include <math.h>
@@ -111,5 +111,5 @@ Graphs(red line represents non-linear system and blue points represent linear):
 		return 0;
 	}
 ```
-###Conclusion: 
+### Conclusion: 
 I constructed linear and non-linear models and plotted them. Linear model grows all the time and non-linear grows until some value.
