@@ -65,19 +65,19 @@ Using Turbo C, create a "Hello world" program for controller i7188D. Output must
 ### Result:
 After launching this program on a controller we could see next output on indicators (# - mean empty):
 	
-	D####                                                                                                                                               
-	LD###                                                                                                                      
-	RLD##                                                                                                                                            
-	ORLD#   
-	VORLD                                                                                                                                          
-	VVORL                                                                                                                                            
-	#VVOR                                                                                                                                            
-	O#VVO                                                                                                                                            
-	LO#VV                                                                                                                                            
-	LLO#V                                                                                                                                            
-	ELLO#                                                                                                                                            
+	D####
+	LD###  
+	RLD## 
+	ORLD# 
+	VORLD 
+	VVORL 
+	#VVOR
+	O#VVO 
+	LO#VV
+	LLO#V
+	ELLO#  
 	HELLO
 	#HELL
-  	##HEL
+	##HEL
    	###HE
    	####H
