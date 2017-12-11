@@ -19,7 +19,7 @@ Using Turbo C, create a "Hello world" program for controller i7188D. Output must
 	
 	void main(void)
 	{
-		int lngth = 19
+		int lngth = 19;
 		int type;
 		int ver;
 		int hello[20] = {
