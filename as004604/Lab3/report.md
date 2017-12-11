@@ -76,7 +76,7 @@ void displayletters(char *c)
 	DelayMs(500);
 }
 
-void displayletter(char c, int pos)
+void displayletter(int pos, char c)
 {
 	switch(c)
 	{
