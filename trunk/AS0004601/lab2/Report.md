@@ -9,18 +9,19 @@
 Create a program using C++ according to the model of PID controller. Use the mathemetical model from the first laboratory work. Program must has OOP (3 classes: Abstract,  Child and one more).
 
 >PID controller formulas:
->
-> u(k) = u(k-1) + Δu(k)
->
-> Δu(k) = q0*e(k) + q1*e(k-1) + q2*e(k-2)
->
-> q0 = K*(1+(Td/To))
->
-> g1 = -K*(1+2*(Td/To) - (Td/To))
->
-> g2 = K*(Td/To)
->
->! e = u\_in-u\_prev
+
+ u(k) = u(k-1) + Δu(k)
+
+ Δu(k) = q0*e(k) + q1*e(k-1) + q2*e(k-2)
+
+ q0 = K*(1+(Td/To))
+
+ g1 = -K*(1+2*(Td/To) - (Td/To))
+
+ g2 = K*(Td/To)
+
+ e = uin-uprev
+
 
 ### Code:
 		//lab2.cpp: определяет точку входа для консольного приложения.
@@ -99,9 +100,9 @@ Create a program using C++ according to the model of PID controller. Use the mat
 		return 0; 
 	} 
 
->### Graph
+>### Correct parameters
 >![Correct parameters](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab2/img/img.PNG)
->
+>### Wrong parameters
 >![Wrong parameters](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab2/img/wrong.PNG)
 ### Conclusion:
 According to  graphs, we can see the difference between system with correct  parameters and system with wrong values. Correct one goes to the neccessary value and keeps and incorrect system has wawe-like form and it doesn't go to the neccessary value.
