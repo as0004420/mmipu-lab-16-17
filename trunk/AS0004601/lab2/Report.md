@@ -104,4 +104,4 @@ Create a program using C++ according to the model of PID controller. Use the mat
 >
 >![Wrong parameters](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab2/img/wrong.PNG)
 ### Conclusion:
-According to  graphs, we can see the difference between system with correct  parameters and system with wrong values. Correct one goes to the neccessary valye and keeps and incorrect system has 
+According to  graphs, we can see the difference between system with correct  parameters and system with wrong values. Correct one goes to the neccessary value and keeps and incorrect system has wawe-like form and it doesn't go to the neccessary value.
