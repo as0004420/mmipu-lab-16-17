@@ -68,9 +68,9 @@ Model's equations:
 		}
 	
 >### Linear
->![linear]
+>![linear](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab1/img/linear.PNG)
 >### Nonlinear
->![nonlinear]
+>![nonlinear](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab1/img/Nonlinear.PNG)
 
 ### Result:
 According to the graphs, we can see, that the linear equation will increase infinitely, but the nonlinear after reaching some limit stays the same.
