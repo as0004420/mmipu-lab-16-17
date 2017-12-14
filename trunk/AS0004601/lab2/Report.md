@@ -102,6 +102,7 @@ Create a program using C++ according to the model of PID controller. Use the mat
 
 >### Correct parameters
 >![Correct parameters](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab2/img/img.PNG)
+
 >### Wrong parameters
 >![Wrong parameters](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab2/img/wrong.PNG)
 ### Conclusion:
