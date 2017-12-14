@@ -20,28 +20,22 @@ Create a program using C++ according to the model of PID controller. Use the mat
 >
 > g2 = K*(Td/To)
 >
-> e = u\_in-u\_prev
+>! e = u\_in-u\_prev
 
 ### Code:
 		//lab2.cpp: определяет точку входа для консольного приложения.
-//
-
+		//
 	#include "stdafx.h"
 	#include <iostream> 
 	using namespace std; 
-
 	class Abstr { 
-
 	protected: 
 		virtual double e(int time) { return 0; };
 		virtual double uk() { return 0; };
 	public:
 		virtual void setngo( double K,  double Td,  double To,  double u_in,  int k) = 0; 
-
 	}; 
-
 	class pid : Abstr {
-
 	private: 
 		double u_curr =  0; 
 		double u_prev1 =  0; 
@@ -51,7 +45,6 @@ Create a program using C++ according to the model of PID controller. Use the mat
 		double q2;
 		double u_in; 
 		double k; 
-
 	protected: 
 		double e( int time)  override { 
 			switch ( time) 
@@ -67,7 +60,6 @@ Create a program using C++ according to the model of PID controller. Use the mat
 					 break; 
 			} 
 		} 
-
 		double uk() {
 			return q0 * e(0) + q1 * e(1) + q2 * e(2);
 		}
@@ -109,6 +101,7 @@ Create a program using C++ according to the model of PID controller. Use the mat
 
 >### Graph
 >![Correct parameters](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab2/img/img.PNG)
+>
 >![Wrong parameters](https://github.com/Blckwtrs/mmipu-lab-16-17/blob/master/trunk/AS0004601/lab2/img/wrong.PNG)
 ### Conclusion:
 According to  graphs, we can see the difference between system with correct  parameters and system with wrong values. Correct one goes to the neccessary valye and keeps and incorrect system has 
