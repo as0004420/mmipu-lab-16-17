@@ -9,18 +9,19 @@
 Create a program using C++ according to the model of PID controller. Use the mathemetical model from the first laboratory work. Program must has OOP (3 classes: Abstract,  Child and one more).
 
 >PID controller formulas:
->
-> u(k) = u(k-1) + Δu(k)
->
-> Δu(k) = q0*e(k) + q1*e(k-1) + q2*e(k-2)
->
-> q0 = K*(1+(Td/To))
->
-> g1 = -K*(1+2*(Td/To) - (Td/To))
->
-> g2 = K*(Td/To)
->
->! e = u\_in-u\_prev
+
+ u(k) = u(k-1) + Δu(k)
+
+ Δu(k) = q0*e(k) + q1*e(k-1) + q2*e(k-2)
+
+ q0 = K*(1+(Td/To))
+
+ g1 = -K*(1+2*(Td/To) - (Td/To))
+
+ g2 = K*(Td/To)
+
+ e = uin-uprev
+
 
 ### Code:
 		//lab2.cpp: определяет точку входа для консольного приложения.
