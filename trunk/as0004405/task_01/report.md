@@ -84,7 +84,7 @@ int main()
 
 ```
 #### Результат С++ ввыполнения программы: <br>
-![Result](https://github.com/as0004405/mmipu-lab-16-17/raw/master/trunk/as0004405/task_01/cpp_RES.png)
+![Result](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004405/task_01/cpp_RES.png)
 <br>
 #### Код в MatLab:
 Функция выводящая изменения по линейной модели: 
@@ -112,10 +112,10 @@ end
 
 ```
 Результат выполнения функций: <br>
-![Result](https://github.com/as0004405/mmipu-lab-16-17/raw/master/trunk/as0004405/task_01/matlab.png)
+![Result](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004405/task_01/matlab.png)
 <br>
 #### Графики:
-![Линейная модель](https://github.com/as0004405/mmipu-lab-16-17/raw/master/trunk/as0004405/task_01/plot_l.png)
-![Нелинейная модель](https://github.com/as0004405/mmipu-lab-16-17/raw/master/trunk/as0004405/task_01/plot_n.png)
+![Линейная модель](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004405/task_01/plot_l.png)
+![Нелинейная модель](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004405/task_01/plot_n.png)
 #### Вывод: 
 Написал программу по результатам которой построил графики линейный и нелинейный для первого и второго уравнений, соответственно. Из графиков видно что линейная функция возрастает до бесконечности, а нелинейная, достигнув некоторого предела, остается на одном уровне.
