@@ -104,19 +104,16 @@ return 0;
 ```
 **Результат работы программы:**
 ![Result](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/result.PNG) <br>
-### *Графики:*
-![Linear](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/linear.PNG) 
-![Nolinear](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/nolinear.png)
 
 *2. Построение графиков в программе matlab:*
 
 Линейная модель:<br>
 
-![](linear.png)
+![Linear](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/linear.PNG) 
 
 Нелинейная модель:<br>
 
-![](nolinear.png)
+![Nolinear](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/nolinear.PNG)
 
 **Вывод:** <br>
 В ходе лабораторной работы на языке C++ реализовал программу,<br>
