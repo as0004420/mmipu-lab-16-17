@@ -103,10 +103,10 @@ return 0;
 }
 ```
 **Результат работы программы:**
-![Result](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/result.png) <br>
+![Result](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/result.PNG) <br>
 ### *Графики:*
-![Linear](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004407/task_01/linear.png) 
-![Nolinear](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004407/task_01/nolinear.png)
+![Linear](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/linear.PNG) 
+![Nolinear](https://github.com/idzm/mmipu-lab-16-17/blob/master/trunk/as0004408/task_01/nolinear.png)
 
 *2. Построение графиков в программе matlab:*
 
